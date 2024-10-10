@@ -1,0 +1,46 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/.phpunit.cache
+/.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+.env
+.env.backup
+.env.production
+
+# Laravel Mix
+/public/js/*.map
+/public/css/*.map
+/public/mix-manifest.json
+
+# Cache and Logs
+/storage/debugbar/*
+/storage/logs
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/bootstrap/cache/*
+
+# Composer & NPM
+composer.lock
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# IDE specific (optional, depending on your editor)
+/.fleet
+/.idea
+/.vscode
+/.zed
+
+# Additional
+/.DS_Store   # macOS Finder metadata
+Thumbs.db    # Windows image file cache
